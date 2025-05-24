@@ -1,0 +1,129 @@
+/* styles.css - Enhanced Version for StrongBase Fitness Store */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #121212;
+    color: #e0e0e0;
+}
+
+header {
+    background: #1f1f1f;
+    color: #00ff88;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.6);
+}
+
+nav {
+    background: #2c2c2c;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
+nav a {
+    color: #e0e0e0;
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #00ff88;
+}
+
+.main-content {
+    padding: 30px 10px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    color: #00ff88;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 3px black;
+}
+
+.product {
+    border: 1px solid #333;
+    padding: 15px;
+    margin: 15px;
+    background: #1e1e1e;
+    display: inline-block;
+    width: 220px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product h3 {
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.product p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #cccccc;
+}
+
+form input, form textarea {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    background: #2a2a2a;
+    border: 1px solid #555;
+    color: #fff;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 12px 24px;
+    background: #00ff88;
+    border: none;
+    color: #121212;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #00e67c;
+}
+
+footer {
+    background: #1f1f1f;
+    color: #888;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+    font-size: 14px;
+    border-top: 1px solid #333;
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .product {
+        width: 90%;
+    }
+}
+
+
+
